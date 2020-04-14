@@ -62,7 +62,7 @@ pht = function(eventobjid,toobjid)
 end
 ded = function(eventobjid,toobjid)
     --死亡一次减去一分
-    Team:setTeamScore(1,Team:getTeamScore(Player:getTeam(toobjid) - 1))
+    Team:setTeamScore(Player:getTeam(toobjid),Team:getTeamScore(Player:getTeam(toobjid) - 1))
 end
 tmc = function(timerid, timername)
     if MiniTimer:getTimerTime(Def.maintr) % Def.spl == 0 then
