@@ -1,4 +1,4 @@
---Copyright(C)2019-202.All right reserved.
+--Copyright(C)2019-2020.All right reserved.
 inp = ""
 x = 0
 y = 0
@@ -23,6 +23,7 @@ function revent()
         end
         local n = 1
         local s = ""
+        local dx = x
         if (outway == outways.sheep) then
             for n=1,string.len(inp),1 do
                 s = string.rep(inp,n)
@@ -60,6 +61,7 @@ function revent()
                     class.Block:placeBlock(615,x,y,z,faceid)--orange
                 elseif (s == "q") then
                     y = y - 1
+                    x = dx
                 elseif (s == "r") then
                     --Not anything
                 else
@@ -105,6 +107,7 @@ function revent()
                     class.Block:placeBlock(682,x,y,z,faceid)--orange
                 elseif (s == "q") then
                     y = y - 1
+                    x = dx
                 elseif (s == "r") then
                     --Not anything
                 else
@@ -150,6 +153,7 @@ function revent()
                     class.Block:placeBlock(631,x,y,z,faceid)--orange
                 elseif (s == "q") then
                     y = y - 1
+                    x = dx
                 elseif (s == "r") then
                     --Not anything
                 else
@@ -195,6 +199,7 @@ function revent()
                     class.Block:placeBlock(648,x,y,z,faceid)--orange
                 elseif (s == "q") then
                     y = y - 1
+                    x = dx
                 elseif (s == "r") then
                     --Not anything
                 else
@@ -240,6 +245,7 @@ function revent()
                     class.Block:placeBlock(665,x,y,z,faceid)--orange
                 elseif (s == "q") then
                     y = y - 1
+                    x = dx
                 elseif (s == "r") then
                     --Not anything
                 else
@@ -285,6 +291,7 @@ function revent()
                     class.Block:placeBlock(877,x,y,z,faceid)--orange
                 elseif (s == "q") then
                     y = y - 1
+                    x = dx
                 elseif (s == "r") then
                     --Not anything
                 else
