@@ -13,46 +13,46 @@
 - 这个就是像素画。可以通过**设置变量**来控制输出
 - **inp**
 - - *inp*控制的是输出。inp的格式如下
-> 颜色 | 代码
-> 白色 | a
-> 橙色 | b
-> 紫红 | c
-> 淡蓝 | d
-> 黄色 | e
-> 淡绿 | f
-> 粉色 | g
-> 灰色 | h
-> 淡灰 | i
-> 青色 | j
-> 紫色 | k
-> 蓝色 | l
-> 褐色 | m
-> 绿色 | n
-> 红色 | o
-> 黑色 | p
-> 换行 | q
-> 空格 | r
+- - 颜色 | 代码
+- - 白色 | a
+- - 橙色 | b
+- - 紫红 | c
+- - 淡蓝 | d
+- - 黄色 | e
+- - 淡绿 | f
+- - 粉色 | g
+- - 灰色 | h
+- - 淡灰 | i
+- - 青色 | j
+- - 紫色 | k
+- - 蓝色 | l
+- - 褐色 | m
+- - 绿色 | n
+- - 红色 | o
+- - 黑色 | p
+- - 换行 | q
+- - 空格 | r
 - **faceid**
 - - *faceid*是指方块朝向，值如下
-> 常量 | 值 | 描述
-> FACE_DIRECTION.DIR_NOT_INIT | -1 | 未指定
-> FACE_DIRECTION.DIR_NEG_X | 0 | X反方向
-> FACE_DIRECTION.DIR_POS_X | 1 | X正方向
-> FACE_DIRECTION.DIR_NEG_Z | 2 | Z反方向
-> FACE_DIRECTION.DIR_POS_Z | 3 | Z正方向
-> FACE_DIRECTION.DIR_NEG_Y | 4 | Y反方向
-> FACE_DIRECTION.DIR_POS_Y | 5 | Y正方向
+- - 常量 | 值 | 描述
+- - FACE_DIRECTION.DIR_NOT_INIT | -1 | 未指定
+- - FACE_DIRECTION.DIR_NEG_X | 0 | X反方向
+- - FACE_DIRECTION.DIR_POS_X | 1 | X正方向
+- - FACE_DIRECTION.DIR_NEG_Z | 2 | Z反方向
+- - FACE_DIRECTION.DIR_POS_Z | 3 | Z正方向
+- - FACE_DIRECTION.DIR_NEG_Y | 4 | Y反方向
+- - FACE_DIRECTION.DIR_POS_Y | 5 | Y正方向
 - **x,y,z**
 - *x,y,z*是起始坐标，请填写
 - **outway**
 - - *outway*是指定以什么方式输出。值如下
-> 常量 | 值 | 描述
-> outways.sheep | 0 | 羊毛
-> outways.outways.block | 1 | 方块
-> outways.undersheep | 2 | 地毯
-> outways.glass | 3 | 玻璃
-> outways.glasspiece | 4 | 玻璃窗
-> outways.glasslight | 5 | 玻璃灯
+- - 常量 | 值 | 描述
+- - outways.sheep | 0 | 羊毛
+- - outways.outways.block | 1 | 方块
+- - outways.undersheep | 2 | 地毯
+- - outways.glass | 3 | 玻璃
+- - outways.glasspiece | 4 | 玻璃窗
+- - outways.glasslight | 5 | 玻璃灯
 ---
 ### 起床战争模板.lua
 - 一个起床战争的模板，开发者可以以这个为起点开发
