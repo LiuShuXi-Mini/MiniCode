@@ -14,7 +14,6 @@
 - **inp**
 - - *inp*控制的是输出。inp的格式如下
 颜色 | 代码
--|-
 白色 | a
 橙色 | b
 紫红 | c
@@ -36,7 +35,6 @@
 - **faceid**
 - - *faceid*是指方块朝向，值如下
 常量 | 值 | 描述
--|-|-
 FACE_DIRECTION.DIR_NOT_INIT | -1 | 未指定
 FACE_DIRECTION.DIR_NEG_X | 0 | X反方向
 FACE_DIRECTION.DIR_POS_X | 1 | X正方向
@@ -49,7 +47,6 @@ FACE_DIRECTION.DIR_POS_Y | 5 | Y正方向
 - **outway**
 - - *outway*是指定以什么方式输出。值如下
 常量 | 值 | 描述
--|-|-
 outways.sheep | 0 | 羊毛
 outways.outways.block | 1 | 方块
 outways.undersheep | 2 | 地毯
