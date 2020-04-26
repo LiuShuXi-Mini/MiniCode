@@ -62,5 +62,9 @@
 ---
 ### 射箭.mcode
 - 就是一个射箭的动作。
+---
+### bedWar.lua
+- 这个是起床战争模板的另改版，这个可能会更稳定。
+---
 # 版权声明
 - Copyright (C) Liushuxi.All right reserved.
